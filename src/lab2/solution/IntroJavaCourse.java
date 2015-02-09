@@ -6,7 +6,7 @@ package lab2.solution;
  * @author      your name goes here
  * @version     1.00
  */
-public class IntroJavaCourse {
+public class IntroJavaCourse implements Course{
     String courseName;
     private String courseNumber;
     private double credits;
@@ -19,6 +19,10 @@ public class IntroJavaCourse {
 
     public String getCourseNumber() {
         return courseNumber;
+    }
+    
+    public String getCourseName(){
+        return courseName;
     }
 
     public void setCourseNumber(String courseNumber) {
