@@ -18,8 +18,8 @@ public class Startup {
         System.out.println(newIntroProgramming.getCourseNumber());
         newIntroJava.setCourseNumber("005");
         System.out.println(newIntroJava.getCourseNumber());
-        newIntroJava.setCredits(3.0);
-        System.out.println(newIntroJava.getCredits());
+        newAdvanced.setCredits(3.0);
+        System.out.println(newAdvanced.getCredits());
     }
     
 }
