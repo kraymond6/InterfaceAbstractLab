@@ -12,5 +12,9 @@ package lab2.solution;
 public interface Course {
     abstract String getCourseNumber();
     abstract String getCourseName();
+    abstract double getCredits();
+    abstract void setCourseNumber(String courseNumber);
+    abstract void setCourseName(String courseName);
+    abstract void setCredits(double credits);
     
     }

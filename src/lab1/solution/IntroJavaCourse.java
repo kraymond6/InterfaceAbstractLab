@@ -23,5 +23,4 @@ public class IntroJavaCourse extends Course{
         this.prerequisites = prerequisites;
     }
 
-
 }

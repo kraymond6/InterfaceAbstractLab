@@ -22,6 +22,7 @@ public class IntroToProgrammingCourse implements Course{
         return courseNumber;
     }
 
+    
     public final void setCourseNumber(String courseNumber) {
         if(courseNumber == null || courseNumber.length() == 0) {
             JOptionPane.showMessageDialog(null,
