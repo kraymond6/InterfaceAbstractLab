@@ -43,7 +43,7 @@ public abstract class Course {
                     "Error: credits must be in the range 0.5 to 4.0");
             System.exit(0);
         }
-        this.setCredits(credits);
+        this.credits = credits;
     }
     
     
