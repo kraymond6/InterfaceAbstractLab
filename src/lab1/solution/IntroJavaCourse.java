@@ -6,7 +6,7 @@ package lab1.solution;
  * @author your name goes here
  * @version 1.00
  */
-public class IntroJavaCourse {
+public class IntroJavaCourse extends Course{
 
     String courseName;
     private String courseNumber;
@@ -18,20 +18,8 @@ public class IntroJavaCourse {
         this.courseNumber = courseNumber;
     }
 
-    public String getCourseNumber() {
-        return courseNumber;
-    }
-
     public void setCourseNumber(String courseNumber) {
         this.courseNumber = courseNumber;
-    }
-    
-    public String getCourseName(){
-        return courseName;
-    }
-
-    public double getCredits() {
-        return credits;
     }
 
     public String getPrerequisites() {

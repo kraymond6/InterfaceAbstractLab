@@ -16,11 +16,11 @@ public abstract class Course {
     private String courseNumber;
     private double credits;
     
-    private String getCourseName(){
+    public String getCourseName(){
         return courseName;
     }
     
-    private String getCourseNumber(){
+    public String getCourseNumber(){
         return courseNumber;
     }
 
