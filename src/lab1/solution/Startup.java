@@ -21,5 +21,11 @@ public class Startup {
         newAdvanced.setCredits(3.0);
         System.out.println(newAdvanced.getCredits());
     }
+    /*I think it's very useful to be able to create concrete methods within the parent
+    class because it saved a lot of space and cleaned up the code in the child classes. 
+    
+    Using the Liskov subsititution principle worked just fine when I used it for the child
+    classes. It is often advantageous to use it because a child class can then be changed to
+    a sibling class without too much difficulty. */
     
 }
