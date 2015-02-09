@@ -12,9 +12,9 @@ import javax.swing.JOptionPane;
  * @author Kallie
  */
 public abstract class Course {
-    private String courseName;
-    private String courseNumber;
-    private double credits;
+    public String courseName;
+    public String courseNumber;
+    public double credits;
     
     public String getCourseName(){
         return courseName;

@@ -8,9 +8,6 @@ package lab1.solution;
  */
 public class IntroJavaCourse extends Course{
 
-    String courseName;
-    private String courseNumber;
-    private double credits;
     private String prerequisites;
 
     public IntroJavaCourse(String courseName, String courseNumber) {
@@ -30,13 +27,5 @@ public class IntroJavaCourse extends Course{
         this.prerequisites = prerequisites;
     }
 
-    public void setCredits(double credits) {
-        if (credits < 0 || credits > 5.0) {
-            System.out.println(
-                    "Error: credits must be in the range 0.5 to 4.0");
-            System.exit(0);
-        }
-        this.setCredits(credits);
-    }
 
 }
